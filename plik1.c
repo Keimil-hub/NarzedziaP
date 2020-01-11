@@ -1,4 +1,5 @@
 
+
 int main()
 
 {
@@ -14,3 +15,4 @@ int main()
     Oblicz(Exp, n);
 
 }
+
