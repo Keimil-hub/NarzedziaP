@@ -1,4 +1,16 @@
+#include <stdio.h>
 
+#include <string.h>
+
+
+
+float Pierwiastek(float a);
+
+float Sin(float a);
+
+float Exp(float a);
+
+float Oblicz(float (*Wskaznik)(float),float a);
 
 int main()
 
@@ -15,4 +27,3 @@ int main()
     Oblicz(Exp, n);
 
 }
-
